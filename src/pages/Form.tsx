@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import * as Yup from "yup";
 import { containerStyle, erroText, formStyle, inputStyle } from "../Styles";
 import { useNavigate } from "react-router-dom";
+
 const senhaSchema = Yup.object().shape({
   senha: Yup.string()
     .min(9, "A senha deve ter no mínimo 9 caracteres")
