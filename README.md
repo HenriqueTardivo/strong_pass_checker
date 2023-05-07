@@ -8,3 +8,7 @@ Feito em React utilizando a biblioteca YUP é validado se a senha possui os segu
 - Caracter especial
 
 Se algum dos criterios não for satisfeito é exibido uma mensagem vermelha descrevendo o que falta, e o botão fica impossivel de ser clicado, fugindo do mouse quando o cursor se aproxima.
+
+Demonstração
+
+![Botão](./button.gif)
